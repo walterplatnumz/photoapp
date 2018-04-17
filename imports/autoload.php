@@ -2,7 +2,7 @@
 
     if(!(defined("DS") && defined("SITE_ROOT") && defined("LIB_PATH"))) {
         define("DS", DIRECTORY_SEPARATOR);
-        define('SITE_ROOT', $_SERVER['DOCUMENT_ROOT'].DS.'photoapp');      
+        define('SITE_ROOT', $_SERVER['DOCUMENT_ROOT'].DS.'photoapp'.DS.'localhost');      
         define('LIB_PATH', SITE_ROOT.DS.'imports');   
     }
     require_once(LIB_PATH.DS."configuration.php");
